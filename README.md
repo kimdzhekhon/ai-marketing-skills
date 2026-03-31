@@ -20,6 +20,7 @@ These aren't prompts. They're complete workflows — scripts, scoring algorithms
 | [**Conversion Ops**](./conversion-ops/) | Score any landing page and turn survey data into lead magnets | CRO Audit, Survey-to-Lead-Magnet Engine |
 | [**Podcast Ops**](./podcast-ops/) | One episode → 20+ content pieces across every platform | Podcast-to-Everything Pipeline, Content Calendar |
 | [**Team Ops**](./team-ops/) | Ruthless performance audits and meeting intelligence | Elon Algorithm, Meeting-to-Action Extractor |
+| [**Sales Playbook**](./sales-playbook/) | Value-based pricing framework that turns $10K deals into $100K deals | Pre-Call Briefing, Tiered Packager, Call Analyzer, Pattern Library |
 
 ---
 
@@ -129,10 +130,16 @@ ai-marketing-skills/
 ├── podcast-ops/           ← Podcast → content factory
 │   ├── SKILL.md
 │   └── podcast_pipeline.py
-└── team-ops/              ← Performance audits + meeting intel
+├── team-ops/              ← Performance audits + meeting intel
+│   ├── SKILL.md
+│   ├── team_performance_audit.py
+│   └── meeting_action_extractor.py
+└── sales-playbook/        ← Value-based pricing framework
     ├── SKILL.md
-    ├── team_performance_audit.py
-    └── meeting_action_extractor.py
+    ├── value_pricing_briefing.py
+    ├── value_pricing_packager.py
+    ├── call_analyzer.py
+    └── pricing_pattern_library.py
 ```
 
 ---
